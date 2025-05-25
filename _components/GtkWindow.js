@@ -3,25 +3,20 @@ import wb from 'https://esm.run/react-winbox';
 
 let WinBox = wb.default;
 
-// import 'node_modules/winbox/dist/css/winbox.min.css';
-
-function GtkWindow() {
+function GtkWindow({title, children}) { // Añadir children a las props desestructuradas
     return (
       <WinBox
-        width={500}
-        height={300}
+        width={300}
+        height={450}
         x="center"
         y="center"
-        title="Hello, WinBox!"
+        title={title}
+        noMin noMax noFull
+        className="dialog dialog-header"
       >
-              <div class="dialog">
-                <div class="dialog-header">New Conversation
-                  <button class="btn btn-close" type="button"></button>  
+                <div className="dialog-body">
+                  {children} {/* Renderizar el contenido hijo aquí */}
                 </div>
-                <div class="dialog-body">
-                  <span class="text">This is the dialog content.</span>
-                </div>
-              </div>
       </WinBox>
     );
   }

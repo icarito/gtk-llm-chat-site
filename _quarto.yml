@@ -11,11 +11,14 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: darkly
+    css: 
+      - node_modules/adwavecss/dist/styles.css
+      - styles.css
     toc: true
-
+    include-after-body: 
+      - text: <script type=module src="node_modules/adwavecss/dist/index.js" defer></script>
+      - text: <script type=module src="node_modules/adwaveui/dist/bundle/index.js" defer></script>
+    body-classes: "dark-theme"
 
 

@@ -2,9 +2,32 @@
 title: "Gtk LLM Chat"
 ---
 
+
+![](./images/org.fuentelibre.gtk_llm_Chat.svg)
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
+{{< react AboutDialog >}}
 
-{{< react MyComponent >}}
+## Ejemplo de ADWaveUI
+
+Aquí hay un botón estilizado con ADWaveUI:
+
+<button class="btn primary">Botón Ondulado</button>
+
+Y aquí una tarjeta:
+
+::: {.w-card}
+### Tarjeta de Ejemplo
+Este es el contenido dentro de una `w-card`.
+:::
+
+## A ver OJS?
+
+```{ojs}
+viewof bill_length_min = Inputs.range(
+  [32, 50], 
+  {value: 35, step: 1, label: "Bill length (min):"}
+)
+```
