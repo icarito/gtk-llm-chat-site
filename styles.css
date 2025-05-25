@@ -95,6 +95,19 @@ a:hover {
   text-decoration: none !important; /* Para que no se subrayen si son <a> */
 }
 
+.rounded {
+    border-radius: 30px !important;
+    border: 1px solid violet;
+    padding: 2px 1.2rem;
+    font-weight: bolder;
+    color: violet;
+}
+
+.linked {
+    margin-top: 1rem;
+    align-content: left;
+}
+
 .ad-button-primary {
   background-color: var(--primary-accent);
   color: var(--primary-text-on-accent);
@@ -294,11 +307,6 @@ code {
   background-color: var(--card-bg) !important;
   color: var(--text-color);
   width: 100%;
-}
-
-.linked {
-    margin-top: 1rem;
-    align-content: left;
 }
 
 /* Estilo para el botón de cerrar dentro del dialog-header para que sea visible */

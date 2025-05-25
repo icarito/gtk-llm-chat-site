@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Gtk LLM Chat"
+  favicon: images/org.fuentelibre.gtk_llm_Chat-bw.png
   navbar:
     left:
       - href: index.qmd

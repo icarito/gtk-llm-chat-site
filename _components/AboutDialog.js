@@ -11,7 +11,7 @@ function AboutDialog() {
                 <div class="header">Gtk LLM Chat</div>
                 <div class="text">Sebastian Silva</div>
                 <div>
-                    <button class="btn">v3.0.0</button>
+                    <button class="btn rounded">v3.0.0</button>
                 </div>
             </center>
             <div class="linked vertical">
