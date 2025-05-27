@@ -2,24 +2,27 @@ project:
   type: website
 
 website:
-  title: "Gtk LLM Chat"
+  title:
+    GTK LLM Chat
+  margin-footer: |
+    {{< react Sidebar >}}
   favicon: images/org.fuentelibre.gtk_llm_Chat-bw.png
+  twitter-card: true
   navbar:
-    left:
+    logo: images/animated_icon.gif
+    right:
       - href: index.qmd
-        text: Home
+        text: About
       - about.qmd
 
 format:
   html:
     theme: darkly
     css: 
-      - node_modules/adwavecss/dist/styles.css
       - styles.css
     toc: true
     include-after-body: 
-      - text: <script type=module src="node_modules/adwavecss/dist/index.js" defer></script>
-      - text: <script type=module src="node_modules/adwaveui/dist/bundle/index.js" defer></script>
+      - text: <script type=module src="main.js" defer></script>
     body-classes: "dark-theme"
 
 

@@ -1,5 +1,4 @@
----
-title: "About"
----
-
-About this site
+::: {.ad-card}
+### Screenshots
+{{< react Screenshots >}}
+:::
