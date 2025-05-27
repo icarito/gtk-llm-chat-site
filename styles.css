@@ -1,0 +1,343 @@
+/* styles.css - Para superponer sobre el tema "darkly" de Quarto */
+
+@import 'https://cdn.jsdelivr.net/npm/adwavecss@0.1.1/dist/styles.css';
+@import 'https://cdn.jsdelivr.net/npm/winbox@0.2.6/dist/css/winbox.min.css';
+
+:root {
+  /* Colores Adwaita Dark */
+  --page-bg: #1d1d1d; /* Fondo principal más oscuro */
+  --card-bg: #282828; /* Fondo de tarjetas/contenido, azulado oscuro característico de Adwaita */
+  --text-color: #f6f5f4; /* Texto principal en Adwaita */
+  --text-muted-color: #bfc4c9; /* Texto secundario/apagado */
+  
+  --primary-accent: #3584e4; /* Azul acento de GNOME */
+  --primary-accent-hover: #1c71d8; /* Azul acento más oscuro para hover */
+  --primary-text-on-accent: #ffffff; /* Texto sobre el acento primario */
+
+  --secondary-bg: #31363b; /* Fondo de barra de título y elementos secundarios */
+  --secondary-bg-hover: #474b50; /* Color hover para elementos en barras */
+  --secondary-text-color: #f6f5f4; /* Texto para elementos secundarios */
+  
+  --border-color: #35373a; /* Color de bordes Adwaita */
+  --border-radius-base: 0.75rem; /* Esquinas redondeadas (12px) */
+  --shadow-base: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -2px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.35), 0 1.5px 0 rgba(255, 255, 255, 0.12) inset;
+}
+
+body {
+  background-color: var(--page-bg) !important; /* Forzar sobre darkly */
+  color: var(--text-color) !important; /* Forzar sobre darkly */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+}
+
+/* Intenta hacer los encabezados un poco más prominentes como en el prototipo */
+h1, .h1 { /* .h1 es clase de Bootstrap */
+  font-size: 2.25rem; /* 36px */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--primary-accent); /* Color azul para el encabezado principal */
+}
+
+h2, .h2 {
+  font-size: 1.875rem; /* 30px */
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+
+a {
+  color: var(--primary-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-accent-hover);
+  text-decoration: underline;
+}
+
+/* Tarjeta personalizada al estilo ADWaveUI */
+.ad-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-base);
+  padding: 1.5rem; /* 24px */
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-base);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.ad-card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.ad-card h1, .ad-card .h1,
+.ad-card h2, .ad-card .h2,
+.ad-card h3, .ad-card .h3 {
+  margin-top: 0; /* Quitar margen superior para encabezados dentro de tarjetas */
+  color: var(--text-color); /* Encabezados dentro de tarjetas no necesariamente azules */
+}
+
+/* Botones personalizados */
+.ad-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem; /* 12px 24px */
+  border-radius: var(--border-radius-base);
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none !important; /* Para que no se subrayen si son <a> */
+}
+
+body {
+  background-image: url('./images/win11.jpg') !important;
+  backgroudn-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#quarto-header {
+  box-shadow: var(--shadow-lg), 0 1px 0 0 rgba(255,255,255,0.1) inset !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.rounded {
+    border-radius: 30px !important;
+    border: 1px solid violet;
+    padding: 2px 1.2rem;
+    font-weight: bolder;
+    color: violet;
+}
+
+.linked {
+    margin-top: 1rem;
+    align-content: left;
+}
+
+.ad-button-primary {
+  background-color: var(--primary-accent);
+  color: var(--primary-text-on-accent);
+  border-color: var(--primary-accent);
+}
+
+.ad-button-primary:hover {
+  background-color: var(--primary-accent-hover);
+  border-color: var(--primary-accent-hover);
+  color: var(--primary-text-on-accent);
+}
+
+.ad-button-secondary {
+  background-color: var(--secondary-bg);
+  color: var(--secondary-text-color);
+  border-color: var(--secondary-bg);
+}
+
+.ad-button-secondary:hover {
+  background-color: var(--secondary-bg-hover);
+  border-color: var(--secondary-bg-hover);
+  color: var(--secondary-text-color);
+}
+
+/* Para sobrescribir algunos estilos de los botones de Bootstrap si usas las clases .btn */
+/* Esto es más agresivo y podría tener efectos no deseados */
+.btn-primary {
+  background-color: var(--primary-accent) !important;
+  border-color: var(--primary-accent) !important;
+  color: var(--primary-text-on-accent) !important;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--primary-accent-hover) !important;
+  border-color: var(--primary-accent-hover) !important;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-bg) !important;
+  border-color: var(--secondary-bg) !important;
+  color: var(--secondary-text-color) !important;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: var(--secondary-bg-hover) !important;
+  border-color: var(--secondary-bg-hover) !important;
+}
+
+/* Asegurar que el contenido principal tenga suficiente espacio */
+.container, .container-fluid { /* Clases de Bootstrap */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Mejorar la apariencia del <pre> y <code> para el código */
+pre {
+    background-color: var(--card-bg) !important; /* O un color ligeramente diferente */
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-base);
+    padding: 1rem;
+    color: var(--text-color); /* Asegura que el texto dentro sea legible */
+}
+
+pre code {
+    background-color: transparent !important;
+    color: inherit !important; /* Hereda el color del <pre> */
+    padding: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+code {
+  background-color: var(--secondary-bg);
+  color: var(--primary-accent);
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
+
+.navbar, .navbar-container {
+  padding: 0rem 1rem; /* Ajustar el padding de la navbar */
+}
+
+.aa-DetachedOverlay {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Navbar (si usas la navbar de Quarto/Bootstrap) */
+/* Esto es un intento muy básico y puede necesitar muchos ajustes */
+.navbar.navbar-dark, .navbar[data-bs-theme="dark"] {
+  background-color: var(--card-bg) !important; /* Un fondo ligeramente distinto al body */
+}
+img.navbar-logo {
+  max-height: 5em !important;
+}
+
+.navbar.navbar-dark .navbar-brand,
+.navbar[data-bs-theme="dark"] .navbar-brand {
+  color: var(--primary-accent) !important;
+  font-weight: bold;
+}
+
+.navbar.navbar-dark .nav-link,
+.navbar[data-bs-theme="dark"] .nav-link {
+  color: var(--text-muted-color) !important;
+}
+
+.navbar.navbar-dark .nav-link:hover, .navbar.navbar-dark .nav-link.active,
+.navbar[data-bs-theme="dark"] .nav-link:hover, .navbar[data-bs-theme="dark"] .nav-link.active {
+  color: var(--text-color) !important;
+}
+
+/* Estilos para que WinBox se parezca a Adwaita */
+.winbox {
+  background-color: var(--page-bg) !important; /* Fondo ventana Adwaita */
+  border-radius: var(--border-radius-base) !important;
+  box-shadow: var(--shadow-lg), 0 1px 0 0 rgba(255,255,255,0.1) inset !important;
+  border: 1px solid var(--border-color) !important;
+  overflow: hidden;
+  z-index: 1050 !important;
+  transition: box-shadow 0.2s;
+}
+
+/* Barra de título estilo Adwaita */
+.winbox .wb-head {
+  background: linear-gradient(180deg, var(--secondary-bg) 90%, var(--card-bg) 100%) !important;
+  border-bottom: 1.5px solid var(--border-color) !important;
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 8px;
+  border-top-left-radius: var(--border-radius-base);
+  border-top-right-radius: var(--border-radius-base);
+  box-sizing: border-box;
+}
+
+.winbox .wb-head .wb-title {
+  color: var(--text-color) !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.01em;
+  margin-left: 8px;
+}
+
+/* Asegurar que los controles de WinBox sean visibles sobre el fondo oscuro */
+.winbox .wb-head .wb-control {
+  margin-left: 5px;
+  transition: background 0.15s;
+}
+.winbox .wb-head .wb-control svg {
+  fill: var(--text-muted-color) !important;
+  transition: fill 0.15s;
+}
+.winbox .wb-head .wb-control:hover {
+  background: var(--secondary-bg-hover);
+}
+.winbox .wb-head .wb-control:hover svg {
+  fill: var(--text-color) !important;
+}
+
+.wb-header {
+    background-color: var(--card-bg) !important;
+}
+
+/* Ajustes para .winbox.no-header si está en uso y los controles deben permanecer visibles */
+.winbox.no-header .wb-head {
+  background: linear-gradient(180deg, var(--secondary-bg) 90%, var(--card-bg) 100%) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  height: auto !important;
+  overflow: visible !important;
+  padding: 0 12px 0 8px !important;
+  margin: 0 !important;
+}
+
+.winbox .wb-body {
+  background-color: var(--card-bg) !important;
+  color: var(--text-color);
+  padding: 0 !important;
+}
+
+/* Específico para el cuerpo de WinBox cuando tiene la clase no-header */
+.winbox.no-header .wb-body {
+  background-color: var(--card-bg) !important;
+}
+
+.winbox .wb-body .dialog {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.winbox .wb-body .dialog .dialog-header {
+  background-color: var(--secondary-bg) !important;
+  padding: 0.75rem 1rem;
+  color: var(--text-color);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 0; 
+  border-top-right-radius: 0;
+}
+
+.winbox .wb-body .dialog .dialog-body {
+  padding: 1rem;
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: var(--card-bg) !important;
+  color: var(--text-color);
+  width: 100%;
+}
+
+/* Estilo para el botón de cerrar dentro del dialog-header para que sea visible */
+.winbox .wb-body .dialog .dialog-header .btn-close {
+  filter: invert(1) grayscale(100%) brightness(150%); /* Intento para hacerlo blanco/claro */
+  opacity: 0.7;
+}
+.winbox .wb-body .dialog .dialog-header .btn-close:hover {
+  opacity: 1;
+}
