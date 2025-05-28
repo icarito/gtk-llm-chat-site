@@ -71,9 +71,9 @@ a:hover {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.ad-card:hover {
+/*.ad-card:hover {
   box-shadow: var(--shadow-lg);
-}
+}*/
 
 .ad-card h1, .ad-card .h1,
 .ad-card h2, .ad-card .h2,
@@ -98,9 +98,9 @@ a:hover {
 }
 
 body {
-  background-image: url('./images/win11.jpg') !important;
-  backgroudn-repeat: no-repeat !important;
-  background-size: cover !important;
+  background-image: url('./images/linux.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: stretch !important;
 }
 
 #quarto-header {

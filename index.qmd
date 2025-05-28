@@ -1,5 +1,6 @@
-::: {.ad-card}
+::: {.ad-card layout-ncol=2}
 
+<div class="card">
 Gtk LLM Chat es una aplicación nativa que te permite interactuar con modelos de lenguaje de última generación (LLMs) a través de una interfaz gráfica intuitiva y moderna basada en GTK.
 
 ### Características principales
@@ -7,7 +8,10 @@ Gtk LLM Chat es una aplicación nativa que te permite interactuar con modelos de
 - **Interfaz nativa GTK**: Perfecta integración con escritorios GNOME y otros entornos basados en GTK
 - **Soporte para múltiples modelos**: Compatible con diversos modelos de lenguaje de código abierto
 - **Experiencia fluida**: Diseñada para ofrecer respuestas rápidas y una experiencia de usuario óptima
-- **Personalizable**: Adapta la interfaz y el comportamiento a tus necesidades
+</div> 
+
+![](images/hello.png){.lightbox fig-align="right"}
+
 :::
 
 ::: {.ad-card}

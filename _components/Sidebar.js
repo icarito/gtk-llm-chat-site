@@ -9,20 +9,25 @@ function Sidebar() {
         setWindows([...windows, aboutDialog]);
     }
 
-    return (<div class="dialog ad-card">
-        <div class="linked vertical">
-            <button class="btn">Details</button>
-        </div>
-        <div class="linked vertical">
-            <button class="btn">Credits</button>
-            <button class="btn" onClick={showAboutDialog}>About</button>
-        </div>
-        {windows.map((window, index) => (
-            <div key={index}>
-                {window}
+    return (
+        <div className="nav-sidebar">
+            <div className="dialog ad-card">
+                <div className="text">Have AI at hand.</div>
+                <div className="label">In your terms.</div>
+                <div className="linked vertical">
+                    <button className="btn">Details</button>
+                </div>
+                <div className="linked vertical">
+                    <button className="btn">Credits</button>
+                    <button className="btn" onClick={showAboutDialog}>About</button>
+                </div>
+                {windows.map((window, index) => (
+                    <div key={index}>
+                        {window}
+                    </div>
+                ))}
             </div>
-        ))}
-    </div>
+        </div>
     );
 }
 
