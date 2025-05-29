@@ -1,84 +1,74 @@
-
-// Incluir SwiperJS vanilla desde CDN solo una vez
-if (!window.__swiper_included) {
-  const link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css';
-  document.head.appendChild(link);
-
-  const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js';
-  document.head.appendChild(script);
-  window.__swiper_included = true;
-}
+import { Swiper } from 'https://cdn.jsdelivr.net/npm/swiper@10/+esm';
+import EffectCoverflow from 'https://cdn.jsdelivr.net/npm/swiper@10/modules/effect-coverflow.min.mjs';
+// import Autoplay from 'https://cdn.jsdelivr.net/npm/swiper@10/modules/autoplay.min.mjs';
+import 'Carousel3d.css';
 
 function Carousel3({ items }) {
   const swiperRef = React.useRef(null);
+  const [backdrop, setBackdrop] = React.useState(items[1].desktop);
 
   React.useEffect(() => {
     function initSwiper() {
-      if (window.Swiper && swiperRef.current) {
-        new window.Swiper(swiperRef.current, {
+      if (swiperRef.current) {
+        const swiper = new Swiper(swiperRef.current, {
           effect: 'coverflow',
-          grabCursor: true,
+          modules: [EffectCoverflow],
           centeredSlides: true,
           slidesPerView: 'auto',
+          initialSlide: 1,
+          speed: 1800,
           coverflowEffect: {
-            rotate: 50,
+            rotate: 30,
+            scale: 0.8,
             stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
+            depth: 500,
+            slideShadows: false,
           },
           pagination: {
             el: '.swiper-pagination',
             clickable: true,
           },
-          autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-          },
+          /* autoplay: {
+            delay: 4000,
+            disableOnInteraction: true,
+            pauseOnMouseEnter: true
+          },*/
+        });
+        swiper.on('slideChange', () => {
+          console.log('Slide changed to index:', items[swiper.activeIndex].title);
+          setBackdrop(items[swiper.activeIndex].desktop);
         });
       }
     }
-    if (window.Swiper) {
-      initSwiper();
-    } else {
-      const interval = setInterval(() => {
-        if (window.Swiper) {
-          clearInterval(interval);
-          initSwiper();
-        }
-      }, 100);
-      return () => clearInterval(interval);
-    }
+    initSwiper();
   }, [items]);
 
   return (
-    <div
-      className="swiper"
-      ref={swiperRef}
-      style={{ width: '100%', maxWidth: '980px', height: '460px' }}
-    >
-      <div className="swiper-wrapper">
-        {items.map((item, idx) => (
-          <div className="swiper-slide" key={idx} style={{
-            width: '300px',
-            textAlign: 'center',
-            background: '#fff',
-            borderRadius: '8px',
-            overflow: 'hidden'
-          }}>
-            <h3 style={{ padding: '10px', margin: '0' }}>{item.title}</h3>
-            <img
-              src={item.image}
-              alt={item.title}
-              style={{ width: '100%', height: 'auto', display: 'block' }}
-            />
-          </div>
-        ))}
+    <div className="desktop"
+      style={{ backgroundImage: `url(${backdrop})` }}>
+      <div
+        className="swiper"
+        ref={swiperRef}
+        style={{ width: '100%', maxWidth: '980px', height: '100%' }}
+      >
+        <div className="swiper-wrapper">
+          {items.map((item, idx) => (
+            <div className="swiper-slide" key={idx} style={{
+              width: '550px',
+              textAlign: 'center',
+              background: '#0000',
+              borderRadius: '8px',
+              overflow: 'hidden'
+            }}>
+              <img
+                src={item.image}
+                alt={item.title}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="swiper-pagination"></div>
       </div>
-      <div className="swiper-pagination"></div>
     </div>
   );
 }

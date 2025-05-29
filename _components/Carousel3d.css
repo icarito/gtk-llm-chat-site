@@ -1,0 +1,16 @@
+@import 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css';
+
+.swiper {
+    overflow: visible !important;
+}
+
+.desktop {
+    margin-top: -50px;
+    background-image: url('./images/linux.png');
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    transition: background-image 0.4s ease;
+}

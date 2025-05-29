@@ -28,6 +28,7 @@ body {
   background-color: var(--page-bg) !important; /* Forzar sobre darkly */
   color: var(--text-color) !important; /* Forzar sobre darkly */
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,12 +96,6 @@ a:hover {
   cursor: pointer;
   border: 1px solid transparent;
   text-decoration: none !important; /* Para que no se subrayen si son <a> */
-}
-
-body {
-  background-image: url('./images/linux.png') !important;
-  background-repeat: no-repeat !important;
-  background-size: stretch !important;
 }
 
 #quarto-header {
@@ -340,4 +335,8 @@ img.navbar-logo {
 }
 .winbox .wb-body .dialog .dialog-header .btn-close:hover {
   opacity: 1;
+}
+
+.centered {
+  text-align: center;
 }

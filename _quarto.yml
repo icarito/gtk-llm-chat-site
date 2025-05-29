@@ -4,8 +4,8 @@ project:
 website:
   title:
     GTK LLM Chat
-  margin-footer: |
-    {{< react Sidebar >}}
+  #margin-footer: |
+  #  {{< react Sidebar >}}
   favicon: images/org.fuentelibre.gtk_llm_Chat-bw.png
   twitter-card: true
   navbar:
@@ -13,13 +13,13 @@ website:
     toggle-position: right
     right:
       - href: index.qmd
-        text: What is GTK LLM Chat?
-      - href: screenshots.qmd
-        text: Screenshots
+        text: Home
       - href: downloads.qmd
         text: Downloads
-      - href: contribute.qmd
-        text: Contribute
+      - href: documentation.qmd
+        text: Documentation
+      - href: development.qmd
+        text: Development
 
 format:
   html:
