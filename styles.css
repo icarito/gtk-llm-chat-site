@@ -1,7 +1,7 @@
 /* styles.css - Para superponer sobre el tema "darkly" de Quarto */
 
-@import 'https://cdn.jsdelivr.net/npm/adwavecss@0.1.1/dist/styles.css';
-@import 'https://cdn.jsdelivr.net/npm/winbox@0.2.6/dist/css/winbox.min.css';
+/* @import 'https://cdn.jsdelivr.net/npm/adwavecss@0.1.1/dist/styles.css'; */
+/* @import 'https://cdn.jsdelivr.net/npm/winbox@0.2.6/dist/css/winbox.min.css'; */
 
 :root {
   /* Colores Adwaita Dark */
@@ -98,9 +98,12 @@ a:hover {
   text-decoration: none !important; /* Para que no se subrayen si son <a> */
 }
 
-#quarto-header {
-  box-shadow: var(--shadow-lg), 0 1px 0 0 rgba(255,255,255,0.1) inset !important;
-  border-bottom: 1px solid var(--border-color) !important;
+#quarto-header > nav {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+#quarto-announcement {
+    margin: 20px 10% 20px;
 }
 
 .rounded {
@@ -339,4 +342,23 @@ img.navbar-logo {
 
 .centered {
   text-align: center;
+}
+
+code {
+  background-color: unset !important;
+}
+
+@media (max-width: 500px) {
+  #quarto-header > nav {
+    padding: 0rem !important;
+  }
+  #quarto-announcement {
+    margin: 3px 3px 20px;
+  }
+  .navbar-container {
+    padding-left: 0rem !important;
+  }
+  img.navbar-logo {
+    max-width: 100% !important;
+  }
 }

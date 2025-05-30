@@ -3,21 +3,26 @@ project:
 
 website:
   title:
-    GTK LLM Chat
-  #margin-footer: |
-  #  {{< react Sidebar >}}
+    Gtk LLM Chat
   favicon: images/org.fuentelibre.gtk_llm_Chat-bw.png
   twitter-card: true
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    type: info
+    content: |
+      **Beta**: Gtk-LLM-Chat is Libre Software. While generally stable for daily use, it is provided "as-is" with no warranties.
+    position: below-navbar
   navbar:
     logo: images/animated_icon.gif
     toggle-position: right
     right:
       - href: index.qmd
         text: Home
+      - href: features.qmd
+        text: Features
       - href: downloads.qmd
         text: Downloads
-      - href: documentation.qmd
-        text: Documentation
       - href: development.qmd
         text: Development
 

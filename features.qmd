@@ -1,0 +1,52 @@
+---
+toc: true
+---
+
+# Features of Gtk-LLM-Chat
+
+Gtk-LLM-Chat is designed to provide a seamless and powerful experience for interacting with a variety of Large Language Models directly from your desktop. Discover its capabilities below.
+
+## Modern & Intuitive Interface
+
+Gtk-LLM-Chat boasts a clean, user-friendly graphical interface built with the latest GTK4 and Libadwaita libraries. This ensures a modern look and feel that integrates beautifully with your desktop environment, making your AI conversations a pleasure.
+
+## Multi-Conversation Management
+
+Easily juggle multiple discussions at once. Each conversation can open in its own independent window, allowing you to organize your thoughts and projects efficiently. You can also rename and delete conversations as needed to keep your workspace tidy.
+
+## Broad LLM Compatibility
+
+Powered by the versatile `python-llm` library, Gtk-LLM-Chat supports a wide range of Large Language Models from various providers. Switch between models effortlessly and leverage the unique strengths of each.
+
+## Real-time Streaming & Rich Formatting
+
+Experience dynamic interactions with real-time streaming of AI responses. Messages are rendered with Markdown support, allowing for clear and rich formatting, including code blocks, lists, and more, directly in the chat view.
+
+## Convenient Sidebar for Controls
+
+A sleek sidebar provides quick access to essential controls. Select your preferred LLM provider and model, adjust parameters, and manage application settings, all from one easily accessible panel. Toggle its visibility with F10.
+
+## Conversation Customization
+
+Tailor each conversation to your specific needs. Adjust key parameters like temperature and define a custom system prompt on a per-conversation basis, giving you fine-grained control over the AI's behavior and responses.
+
+## System Tray Integration
+
+Stay productive with the integrated system tray applet. Quickly access your recent conversations or start new ones without needing to navigate away from your current task, ensuring Gtk-LLM-Chat is always within easy reach.
+
+## Keyboard Shortcuts for Efficiency
+
+Boost your productivity with a comprehensive set of keyboard shortcuts for common actions:
+
+* **F10:** Toggle sidebar visibility
+* **F2:** Rename the current conversation
+* **Escape:** Minimize the current window
+* **Enter:** Send your message
+* **Shift+Enter:** Add a new line in the input field
+* **Ctrl+W:** Delete the current conversation
+
+
+---
+
+We are continuously working on adding more features and improving Gtk-LLM-Chat. Check our [GitHub repository](https://github.com/icarito/gtk-llm-chat/) for the latest updates!
+

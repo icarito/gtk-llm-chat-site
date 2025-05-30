@@ -1,0 +1,63 @@
+---
+toc: true
+---
+
+# Development & Vision
+
+::: { .alert .alert-success }
+
+**Gtk-LLM-Chat** is a _graphical frontend_ for the command-line utility "[`llm`](https://llm.datasette.io/en/stable/). Just as `llm` integrates large language models into the command line interface, Gtk-LLM-Chat aims to bring that same power to the desktop environment.
+
+Its goal is to provide **intuitive affordances** and seamless integration for using LLMs in everyday tasks — all while remaining convenient, lightweight, and transparent in its behavior.
+
+:::
+
+## Our Mission & Project Goals
+
+Gtk-LLM-Chat is driven by a clear mission: to seamlessly integrate the power of Large Language Models into your daily desktop workflow. We aim to achieve this by:
+
+* **Providing an Intuitive Desktop Experience:** Offering a native, user-friendly GTK4/Libadwaita interface that is both powerful and easy to navigate.
+* **Ensuring Convenience & Lightweight Performance:** Creating a tool that is readily accessible (e.g., via tray applet), starts quickly, and operates efficiently without being a resource hog.
+* **Promoting Transparency & User Control:** Building an application that behaves predictably, gives users control over their data and interactions, and clearly manages settings like API keys.
+* **Supporting Diverse LLM Access:** Leveraging the flexibility of the `python-llm` library to provide access to a wide range of LLM providers and models.
+* **Upholding Libre Software Values:** Developing Gtk-LLM-Chat as a fully open-source project under the GPLv3 license, ensuring freedom for users and fostering community collaboration.
+* **Deep Desktop Integration:** Making AI a natural part of your desktop, not just another web tab, through features like multiple windows and system tray access.
+
+## Roadmap & Future Vision
+
+While Gtk-LLM-Chat is actively developed, we maintain a flexible approach to our roadmap, often driven by user feedback and emerging opportunities in the rapidly evolving AI landscape. Our general direction includes:
+
+* **Continuous Improvement:** Regularly enhancing existing features, improving performance, and refining the user experience based on user input.
+* **Expanding LLM Support:** Keeping pace with new models and providers as they become available through `python-llm` and exploring deeper integrations where beneficial.
+* **Enhanced Customization:** Adding more options for users to tailor the application's behavior and appearance to their specific needs.
+* **Exploring New Features:** Investigating potential new functionalities that align with our core goals, such as advanced conversation management tools, plugin systems, or further desktop environment integrations.
+
+We believe in community-driven development. Your feedback, bug reports, and feature suggestions are invaluable! Please feel free to:
+
+* [Open an issue on GitHub](https://github.com/icarito/gtk-llm-chat/issues) to report bugs or suggest features.
+* Engage in discussions in the [dedicated discussion area](https://github.com/icarito/gtk-llm-chat/discussions) (feel free to start a new thread).
+
+## Source Code Repository
+
+::: { .ad-button .ad-button-secondary .ad-button-lg }
+[<i class="bi bi-github"></i>&nbsp; **Gtk-LLM-Chat**<br>https://github.com/icarito/gtk-llm-chat/](https://github.com/icarito/gtk-llm-chat/)
+:::
+
+This is the primary repository for the Gtk-LLM-Chat desktop application itself. It contains the UI code, application logic, and packaging scripts. All project-specific issues and contributions should be directed here.
+
+## Statement of Stewardship
+
+As the maintainer and steward of Gtk-LLM-Chat, I see my role as upholding an implied social contract with you, our users. This is centered on a profound commitment to your software freedom, ensuring Gtk-LLM-Chat remains transparent, user-centric, and true to its GPLv3 Libre Software license.
+
+This commitment means dedicating significant time and effort to develop, maintain, and evolve Gtk-LLM-Chat – not just as a functional tool, but as one that respects your rights and empowers you. It involves ongoing work to add new features, ensure stability, and respond to the community's needs, all while adhering to these core principles.
+
+If Gtk-LLM-Chat brings value to your work or personal projects, and you wish to support this vision, the continued development, and the effort to keep it a thriving open-source project, please consider becoming a sponsor. Your contribution, no matter the size, directly helps sustain these efforts and allows me to dedicate more resources to the project.
+
+You can support my work on Gtk-LLM-Chat through:
+
+* **GitHub Sponsors:** [github.com/sponsors/icarito](https://github.com/sponsors/icarito)
+* **Patreon:** [patreon.com/icarito](https://patreon.com/icarito)
+* **Buy Me a Coffee:** [buymeacoffee.com/icarito](https://buymeacoffee.com/icarito)
+
+Your support is not just a donation; it's an investment in a project that values freedom, community, and user empowerment. Thank you for considering it!
+

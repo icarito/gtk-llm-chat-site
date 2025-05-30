@@ -1,4 +1,0 @@
-::: {.ad-card}
-### Screenshots
-{{< react Screenshots >}}
-:::

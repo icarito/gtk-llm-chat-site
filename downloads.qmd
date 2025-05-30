@@ -1,0 +1,92 @@
+---
+toc: true
+#margin-footer: |
+#  {{< react Sidebar >}}
+---
+
+# How to install
+
+It's possible to install `gtk-llm-chat` in two ways: as a standalone application or as a plugin for the `llm` command-line utility.
+
+## Distribution Packages
+
+These are standalone application bundles for easy installation. These are recommended for most users, as they provide a simple way to get started without needing to set up the `llm` command-line utility.
+
+::: {layout-ncol=2}
+
+::: { .ad-card }
+### <i class="bi bi-box-seam"></i> Linux (AppImage)
+
+**File:** `gtk-llm-chat-x86_64.AppImage`
+**Architecture:** x86_64
+
+[<i class="bi bi-download"></i>&nbsp; Download .AppImage](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.AppImage){.ad-button .ad-button-primary role="button"}
+:::
+
+::: { .ad-card }
+### <i class="bi bi-windows"></i> Windows
+
+**File:** `gtk-llm-chat-v3.0.0-AMD64.exe`
+**Architecture:** AMD64 / x86_64
+
+[<i class="bi bi-download"></i>&nbsp; Download .exe](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-v3.0.0-AMD64.exe){.ad-button .ad-button-primary role="button"}
+:::
+
+::: { .ad-card }
+### <i class="bi bi-apple"></i> macOS (Apple Silicon)
+
+**File:** `gtk-llm-chat-arm64.dmg`
+**Architecture:** arm64
+
+[<i class="bi bi-download"></i>&nbsp; Download .dmg (arm64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-arm64.dmg){.ad-button .ad-button-primary role="button"}
+:::
+
+::: { .ad-card }
+### <i class="bi bi-apple"></i> macOS (Intel)
+
+**File:** `gtk-llm-chat-x86_64.dmg`
+**Architecture:** x86_64
+
+[<i class="bi bi-download"></i>&nbsp; Download .dmg (x86_64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.dmg){.ad-button .ad-button-primary role="button"}
+:::
+
+:::
+
+::: { .alert .alert-danger }
+### <i class="bi bi-info-circle-fill"></i>&nbsp; Attention MacOS and Windows users
+
+You will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores.
+:::
+
+## Installing as a command line plugin for `llm`
+
+`Gtk-LLM-Chat` can also be installed as a plugin for Simon Willison's `llm` command-line utility. This allows you to use it as a graphical frontend for your `llm` conversations. Use this if you'd like to integrate `gtk-llm-chat` with the `llm` ecosystem or if you prefer using command-line tools in combination with a GUI.
+
+**1. Install `llm` (if you haven't already):**
+
+It's recommended to install `llm` using `pipx` to avoid conflicts with other Python packages:
+```bash
+pipx install llm
+```
+
+**2. Install the `gtk-llm-chat` plugin:**
+
+Once `llm` is installed, you can install `gtk-llm-chat` as a plugin:
+```bash
+llm install gtk-llm-chat
+```
+
+::: { .alert .alert-warning }
+<i class="bi bi-exclamation-triangle-fill"></i>&nbsp; You will most likely need to install some [*dependencies*](https://github.com/icarito/gtk-llm-chat/?tab=readme-ov-file#system-requirements) for `gtk-llm-chat` to work properly in your system.
+:::
+
+**3. Run `gtk-llm-chat`:**
+
+After installation, you can launch the GTK application using:
+```bash
+llm gtk-chat
+````
+Or, depending on your system and how plugins are registered with `llm`, you might also find `gtk-llm-chat` as a separate application.
+
+---
+For more detailed information, system requirements, and development setup, please refer to the [project's README on GitHub](https://github.com/icarito/gtk-llm-chat/).
