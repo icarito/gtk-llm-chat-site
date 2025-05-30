@@ -63,7 +63,7 @@ a:hover {
 }
 
 /* Tarjeta personalizada al estilo ADWaveUI */
-.ad-card {
+.wai-card {
   background-color: var(--card-bg);
   border-radius: var(--border-radius-base);
   padding: 1.5rem; /* 24px */
@@ -72,19 +72,19 @@ a:hover {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-/*.ad-card:hover {
+/*.wai-card:hover {
   box-shadow: var(--shadow-lg);
 }*/
 
-.ad-card h1, .ad-card .h1,
-.ad-card h2, .ad-card .h2,
-.ad-card h3, .ad-card .h3 {
+.wai-card h1, .wai-card .h1,
+.wai-card h2, .wai-card .h2,
+.wai-card h3, .wai-card .h3 {
   margin-top: 0; /* Quitar margen superior para encabezados dentro de tarjetas */
   color: var(--text-color); /* Encabezados dentro de tarjetas no necesariamente azules */
 }
 
 /* Botones personalizados */
-.ad-button {
+.wai-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -119,25 +119,25 @@ a:hover {
     align-content: left;
 }
 
-.ad-button-primary {
+.wai-button-primary {
   background-color: var(--primary-accent);
   color: var(--primary-text-on-accent);
   border-color: var(--primary-accent);
 }
 
-.ad-button-primary:hover {
+.wai-button-primary:hover {
   background-color: var(--primary-accent-hover);
   border-color: var(--primary-accent-hover);
   color: var(--primary-text-on-accent);
 }
 
-.ad-button-secondary {
+.wai-button-secondary {
   background-color: var(--secondary-bg);
   color: var(--secondary-text-color);
   border-color: var(--secondary-bg);
 }
 
-.ad-button-secondary:hover {
+.wai-button-secondary:hover {
   background-color: var(--secondary-bg-hover);
   border-color: var(--secondary-bg-hover);
   color: var(--secondary-text-color);
