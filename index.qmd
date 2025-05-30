@@ -1,25 +1,25 @@
 {{< react Showcase >}}
 
 ::: {layout-ncol=2}
-::: { .ad-card.accented }
+::: { .wai-card.accented }
 ### <i class="bi bi-stars"></i> <span class="text-primary">Dynamic AI Dialogues!</span>
 
 Engage diverse LLMs through a sleek, responsive chat interface. Pure power at your fingertips for truly modern conversations.
 :::
 
-::: { .ad-card.accented }
+::: { .wai-card.accented }
 ### <i class="bi bi-lightning-charge-fill"></i> <span class="text-primary">Instant AI Access!</span>
 
 Your conversations & AI assistant, always ready. Deep desktop integration via a slick tray applet for ultimate workflow convenience.
 :::
 
-::: { .ad-card.accented }
+::: { .wai-card.accented }
 ### <i class="bi bi-shield-check"></i> <span class="text-primary">Total Freedom: GPLv3!</span>
 
 Unleash your potential with 100% Libre Software. Gtk-LLM-Chat empowers you to use, modify, share, and build without limits.
 :::
 
-::: { .ad-card.accented }
+::: { .wai-card.accented }
 ### <i class="bi bi-person-lock"></i> <span class="text-primary">Your AI, Your Rules!</span>
 
 Command your digital world. Gtk-LLM-Chat ensures full conversation ownership and uncompromising privacy. AI on your terms.
@@ -29,10 +29,10 @@ Command your digital world. Gtk-LLM-Chat ensures full conversation ownership and
 ---
 
 ::: { .centered }
-<a href="features.qmd" class="ad-button ad-button-secondary ad-button-lg" role="button">
+<a href="features.qmd" class="wai-button wai-button-secondary wai-button-lg" role="button">
   <i class="bi bi-file-text-fill"></i>&nbsp; Read more
 </a>
-<a href="downloads.qmd" class="ad-button ad-button-primary ad-button-lg" role="button">
+<a href="downloads.qmd" class="wai-button wai-button-primary wai-button-lg" role="button">
   <i class="bi bi-download"></i>&nbsp; Go to Downloads
 </a>
 :::

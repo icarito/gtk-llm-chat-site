@@ -14,40 +14,40 @@ These are standalone application bundles for easy installation. These are recomm
 
 ::: {layout-ncol=2}
 
-::: { .ad-card }
+::: { .wai-card }
 ### <i class="bi bi-box-seam"></i> Linux (AppImage)
 
 **File:** `gtk-llm-chat-x86_64.AppImage`
 **Architecture:** x86_64
 
-[<i class="bi bi-download"></i>&nbsp; Download .AppImage](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.AppImage){.ad-button .ad-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .AppImage](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.AppImage){.wai-button .wai-button-primary role="button"}
 :::
 
-::: { .ad-card }
+::: { .wai-card }
 ### <i class="bi bi-windows"></i> Windows
 
 **File:** `gtk-llm-chat-v3.0.0-AMD64.exe`
 **Architecture:** AMD64 / x86_64
 
-[<i class="bi bi-download"></i>&nbsp; Download .exe](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-v3.0.0-AMD64.exe){.ad-button .ad-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .exe](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-v3.0.0-AMD64.exe){.wai-button .wai-button-primary role="button"}
 :::
 
-::: { .ad-card }
+::: { .wai-card }
 ### <i class="bi bi-apple"></i> macOS (Apple Silicon)
 
 **File:** `gtk-llm-chat-arm64.dmg`
 **Architecture:** arm64
 
-[<i class="bi bi-download"></i>&nbsp; Download .dmg (arm64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-arm64.dmg){.ad-button .ad-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .dmg (arm64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-arm64.dmg){.wai-button .wai-button-primary role="button"}
 :::
 
-::: { .ad-card }
+::: { .wai-card }
 ### <i class="bi bi-apple"></i> macOS (Intel)
 
 **File:** `gtk-llm-chat-x86_64.dmg`
 **Architecture:** x86_64
 
-[<i class="bi bi-download"></i>&nbsp; Download .dmg (x86_64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.dmg){.ad-button .ad-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .dmg (x86_64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.dmg){.wai-button .wai-button-primary role="button"}
 :::
 
 :::

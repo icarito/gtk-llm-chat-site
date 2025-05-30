@@ -11,7 +11,7 @@ function Sidebar() {
 
     return (
         <div className="nav-sidebar">
-            <div className="dialog ad-card">
+            <div className="dialog wai-card">
                 <div className="text">Have AI at hand.</div>
                 <div className="label">In your terms.</div>
                 <div className="linked vertical">

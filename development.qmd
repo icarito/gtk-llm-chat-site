@@ -39,7 +39,7 @@ We believe in community-driven development. Your feedback, bug reports, and feat
 
 ## Source Code Repository
 
-::: { .ad-button .ad-button-secondary .ad-button-lg }
+::: { .wai-button .wai-button-secondary .wai-button-lg }
 [<i class="bi bi-github"></i>&nbsp; **Gtk-LLM-Chat**<br>https://github.com/icarito/gtk-llm-chat/](https://github.com/icarito/gtk-llm-chat/)
 :::
 
