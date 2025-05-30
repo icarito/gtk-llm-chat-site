@@ -151,6 +151,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <div id="quarto-announcement" data-announcement-id="7e19ae8b4e59cae0a3d16604206a8d28" class="alert alert-info hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Beta</strong>: Gtk-LLM-Chat is Libre Software. While generally stable for daily use, it is provided “as-is” with no warranties.</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -163,7 +166,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#how-to-install" id="toc-how-to-install" class="nav-link active" data-scroll-target="#how-to-install">How to install</a>
   <ul class="collapse">
-  <li><a href="#distribution-packages" id="toc-distribution-packages" class="nav-link" data-scroll-target="#distribution-packages">Distribution Packages</a></li>
+  <li><a href="#distribution-packages" id="toc-distribution-packages" class="nav-link" data-scroll-target="#distribution-packages">Distribution Packages</a>
+  <ul class="collapse">
+  <li><a href="#attention-macos-and-windows-users" id="toc-attention-macos-and-windows-users" class="nav-link" data-scroll-target="#attention-macos-and-windows-users"><i class="bi bi-info-circle-fill"></i>&nbsp; Attention MacOS and Windows users</a></li>
+  </ul></li>
   <li><a href="#installing-as-a-command-line-plugin-for-llm" id="toc-installing-as-a-command-line-plugin-for-llm" class="nav-link" data-scroll-target="#installing-as-a-command-line-plugin-for-llm">Installing as a command line plugin for <code>llm</code></a></li>
   </ul></li>
   </ul>
@@ -186,15 +192,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
-<section id="windows" class="level3 ad-card quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<h3 class="anchored" data-anchor-id="windows"><i class="bi bi-windows"></i> Windows</h3>
-<p><strong>File:</strong> <code>gtk-llm-chat-v3.0.0-AMD64.exe</code> <strong>Architecture:</strong> AMD64 / x86_64</p>
-<p><a href="https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-v3.0.0-AMD64.exe" class="ad-button ad-button-primary" role="button"><i class="bi bi-download"></i>&nbsp; Download .exe</a></p>
-</section>
 <section id="linux-appimage" class="level3 ad-card quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h3 class="anchored" data-anchor-id="linux-appimage"><i class="bi bi-box-seam"></i> Linux (AppImage)</h3>
 <p><strong>File:</strong> <code>gtk-llm-chat-x86_64.AppImage</code> <strong>Architecture:</strong> x86_64</p>
 <p><a href="https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.AppImage" class="ad-button ad-button-primary" role="button"><i class="bi bi-download"></i>&nbsp; Download .AppImage</a></p>
+</section>
+<section id="windows" class="level3 ad-card quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="windows"><i class="bi bi-windows"></i> Windows</h3>
+<p><strong>File:</strong> <code>gtk-llm-chat-v3.0.0-AMD64.exe</code> <strong>Architecture:</strong> AMD64 / x86_64</p>
+<p><a href="https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-v3.0.0-AMD64.exe" class="ad-button ad-button-primary" role="button"><i class="bi bi-download"></i>&nbsp; Download .exe</a></p>
 </section>
 </div>
 <div class="quarto-layout-row">
@@ -210,9 +216,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </div>
 </div>
-<div class="alert info">
-<p><i class="bi bi-info-circle-fill"></i>&nbsp;You will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores.</p>
-</div>
+<section id="attention-macos-and-windows-users" class="level3 alert alert-danger">
+<h3 class="anchored" data-anchor-id="attention-macos-and-windows-users"><i class="bi bi-info-circle-fill"></i>&nbsp; Attention MacOS and Windows users</h3>
+<p>You will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores.</p>
+</section>
 </section>
 <section id="installing-as-a-command-line-plugin-for-llm" class="level2">
 <h2 class="anchored" data-anchor-id="installing-as-a-command-line-plugin-for-llm">Installing as a command line plugin for <code>llm</code></h2>
@@ -223,8 +230,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>2. Install the <code>gtk-llm-chat</code> plugin:</strong></p>
 <p>Once <code>llm</code> is installed, you can install <code>gtk-llm-chat</code> as a plugin:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">llm</span> install gtk-llm-chat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="alert warning">
-<p><i class="bi bi-exclamation-triangle-fill"></i>&nbsp; You will most likely need to install some <a href="https://github.com/icarito/gtk-llm-chat/?tab=readme-ov-file#system-requirements">dependencies</a> for <code>gtk-llm-chat</code> to work properly in your system.</p>
+<div class="alert alert-warning">
+<p><i class="bi bi-exclamation-triangle-fill"></i>&nbsp; You will most likely need to install some <a href="https://github.com/icarito/gtk-llm-chat/?tab=readme-ov-file#system-requirements"><em>dependencies</em></a> for <code>gtk-llm-chat</code> to work properly in your system.</p>
 </div>
 <p><strong>3. Run <code>gtk-llm-chat</code>:</strong></p>
 <p>After installation, you can launch the GTK application using:</p>

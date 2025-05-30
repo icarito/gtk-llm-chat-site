@@ -4,35 +4,35 @@
     "href": "development.html",
     "title": "Development & Vision",
     "section": "",
-    "text": "Welcome to the development hub for Gtk-LLM-Chat! This page outlines our core goals, future aspirations, key repositories, and how you can help support this open-source project."
+    "text": "Gtk-LLM-Chat is a graphical frontend for the command-line utility “llm. Just as llm integrates large language models into the command line interface, Gtk-LLM-Chat aims to bring that same power to the desktop environment.\nIts goal is to provide intuitive affordances and seamless integration for using LLMs in everyday tasks — all while remaining convenient, lightweight, and transparent in its behavior.\n\n\n\nGtk-LLM-Chat is driven by a clear mission: to seamlessly integrate the power of Large Language Models into your daily desktop workflow. We aim to achieve this by:\n\nProviding an Intuitive Desktop Experience: Offering a native, user-friendly GTK4/Libadwaita interface that is both powerful and easy to navigate.\nEnsuring Convenience & Lightweight Performance: Creating a tool that is readily accessible (e.g., via tray applet), starts quickly, and operates efficiently without being a resource hog.\nPromoting Transparency & User Control: Building an application that behaves predictably, gives users control over their data and interactions, and clearly manages settings like API keys.\nSupporting Diverse LLM Access: Leveraging the flexibility of the python-llm library to provide access to a wide range of LLM providers and models.\nUpholding Libre Software Values: Developing Gtk-LLM-Chat as a fully open-source project under the GPLv3 license, ensuring freedom for users and fostering community collaboration.\nDeep Desktop Integration: Making AI a natural part of your desktop, not just another web tab, through features like multiple windows and system tray access.\n\n\n\n\nWhile Gtk-LLM-Chat is actively developed, we maintain a flexible approach to our roadmap, often driven by user feedback and emerging opportunities in the rapidly evolving AI landscape. Our general direction includes:\n\nContinuous Improvement: Regularly enhancing existing features, improving performance, and refining the user experience based on user input.\nExpanding LLM Support: Keeping pace with new models and providers as they become available through python-llm and exploring deeper integrations where beneficial.\nEnhanced Customization: Adding more options for users to tailor the application’s behavior and appearance to their specific needs.\nExploring New Features: Investigating potential new functionalities that align with our core goals, such as advanced conversation management tools, plugin systems, or further desktop environment integrations.\n\nWe believe in community-driven development. Your feedback, bug reports, and feature suggestions are invaluable! Please feel free to:\n\nOpen an issue on GitHub to report bugs or suggest features.\nEngage in discussions in the dedicated discussion area (feel free to start a new thread).\n\n\n\n\n\n  Gtk-LLM-Chathttps://github.com/icarito/gtk-llm-chat/\n\nThis is the primary repository for the Gtk-LLM-Chat desktop application itself. It contains the UI code, application logic, and packaging scripts. All project-specific issues and contributions should be directed here.\n\n\n\nAs the maintainer and steward of Gtk-LLM-Chat, I see my role as upholding an implied social contract with you, our users. This is centered on a profound commitment to your software freedom, ensuring Gtk-LLM-Chat remains transparent, user-centric, and true to its GPLv3 Libre Software license.\nThis commitment means dedicating significant time and effort to develop, maintain, and evolve Gtk-LLM-Chat – not just as a functional tool, but as one that respects your rights and empowers you. It involves ongoing work to add new features, ensure stability, and respond to the community’s needs, all while adhering to these core principles.\nIf Gtk-LLM-Chat brings value to your work or personal projects, and you wish to support this vision, the continued development, and the effort to keep it a thriving open-source project, please consider becoming a sponsor. Your contribution, no matter the size, directly helps sustain these efforts and allows me to dedicate more resources to the project.\nYou can support my work on Gtk-LLM-Chat through:\n\nGitHub Sponsors: github.com/sponsors/icarito\nPatreon: patreon.com/icarito\nBuy Me a Coffee: buymeacoffee.com/icarito\n\nYour support is not just a donation; it’s an investment in a project that values freedom, community, and user empowerment. Thank you for considering it!"
   },
   {
     "objectID": "development.html#our-mission-project-goals",
     "href": "development.html#our-mission-project-goals",
     "title": "Development & Vision",
-    "section": "Our Mission & Project Goals",
-    "text": "Our Mission & Project Goals\nGtk-LLM-Chat is driven by a clear mission: to seamlessly integrate the power of Large Language Models into your daily desktop workflow. We aim to achieve this by:\n\nProviding an Intuitive Desktop Experience: Offering a native, user-friendly GTK4/Libadwaita interface that is both powerful and easy to navigate.\nEnsuring Convenience & Lightweight Performance: Creating a tool that is readily accessible (e.g., via tray applet), starts quickly, and operates efficiently without being a resource hog.\nPromoting Transparency & User Control: Building an application that behaves predictably, gives users control over their data and interactions, and clearly manages settings like API keys.\nSupporting Diverse LLM Access: Leveraging the flexibility of the python-llm library to provide access to a wide range of LLM providers and models.\nUpholding Libre Software Values: Developing Gtk-LLM-Chat as a fully open-source project under the GPLv3 license, ensuring freedom for users and fostering community collaboration.\nDeep Desktop Integration: Making AI a natural part of your desktop, not just another web tab, through features like multiple windows and system tray access."
+    "section": "",
+    "text": "Gtk-LLM-Chat is driven by a clear mission: to seamlessly integrate the power of Large Language Models into your daily desktop workflow. We aim to achieve this by:\n\nProviding an Intuitive Desktop Experience: Offering a native, user-friendly GTK4/Libadwaita interface that is both powerful and easy to navigate.\nEnsuring Convenience & Lightweight Performance: Creating a tool that is readily accessible (e.g., via tray applet), starts quickly, and operates efficiently without being a resource hog.\nPromoting Transparency & User Control: Building an application that behaves predictably, gives users control over their data and interactions, and clearly manages settings like API keys.\nSupporting Diverse LLM Access: Leveraging the flexibility of the python-llm library to provide access to a wide range of LLM providers and models.\nUpholding Libre Software Values: Developing Gtk-LLM-Chat as a fully open-source project under the GPLv3 license, ensuring freedom for users and fostering community collaboration.\nDeep Desktop Integration: Making AI a natural part of your desktop, not just another web tab, through features like multiple windows and system tray access."
   },
   {
     "objectID": "development.html#roadmap-future-vision",
     "href": "development.html#roadmap-future-vision",
     "title": "Development & Vision",
-    "section": "Roadmap & Future Vision",
-    "text": "Roadmap & Future Vision\nWhile Gtk-LLM-Chat is actively developed, we maintain a flexible approach to our roadmap, often driven by user feedback and emerging opportunities in the rapidly evolving AI landscape. Our general direction includes:\n\nContinuous Improvement: Regularly enhancing existing features, improving performance, and refining the user experience based on user input.\nExpanding LLM Support: Keeping pace with new models and providers as they become available through python-llm and exploring deeper integrations where beneficial.\nEnhanced Customization: Adding more options for users to tailor the application’s behavior and appearance to their specific needs.\nExploring New Features: Investigating potential new functionalities that align with our core goals, such as advanced conversation management tools, plugin systems, or further desktop environment integrations.\n\nWe believe in community-driven development. Your feedback, bug reports, and feature suggestions are invaluable! Please feel free to:\n\nOpen an issue on GitHub to report bugs or suggest features.\nEngage in discussions if a dedicated forum or discussion area is set up."
+    "section": "",
+    "text": "While Gtk-LLM-Chat is actively developed, we maintain a flexible approach to our roadmap, often driven by user feedback and emerging opportunities in the rapidly evolving AI landscape. Our general direction includes:\n\nContinuous Improvement: Regularly enhancing existing features, improving performance, and refining the user experience based on user input.\nExpanding LLM Support: Keeping pace with new models and providers as they become available through python-llm and exploring deeper integrations where beneficial.\nEnhanced Customization: Adding more options for users to tailor the application’s behavior and appearance to their specific needs.\nExploring New Features: Investigating potential new functionalities that align with our core goals, such as advanced conversation management tools, plugin systems, or further desktop environment integrations.\n\nWe believe in community-driven development. Your feedback, bug reports, and feature suggestions are invaluable! Please feel free to:\n\nOpen an issue on GitHub to report bugs or suggest features.\nEngage in discussions in the dedicated discussion area (feel free to start a new thread)."
   },
   {
     "objectID": "development.html#source-code-repository",
     "href": "development.html#source-code-repository",
     "title": "Development & Vision",
-    "section": "Source Code Repository",
-    "text": "Source Code Repository\n\n  Gtk-LLM-Chathttps://github.com/icarito/gtk-llm-chat/\n\nThis is the primary repository for the Gtk-LLM-Chat desktop application itself. It contains the UI code, application logic, and packaging scripts. All project-specific issues and contributions should be directed here."
+    "section": "",
+    "text": "Gtk-LLM-Chathttps://github.com/icarito/gtk-llm-chat/\n\nThis is the primary repository for the Gtk-LLM-Chat desktop application itself. It contains the UI code, application logic, and packaging scripts. All project-specific issues and contributions should be directed here."
   },
   {
-    "objectID": "development.html#support-gtk-llm-chat",
-    "href": "development.html#support-gtk-llm-chat",
+    "objectID": "development.html#statement-of-stewardship",
+    "href": "development.html#statement-of-stewardship",
     "title": "Development & Vision",
-    "section": "Support Gtk-LLM-Chat",
-    "text": "Support Gtk-LLM-Chat\nGtk-LLM-Chat is a passion-driven, Libre Software project developed by Sebastian Silva (icarito) and contributors from the open-source community. If you find Gtk-LLM-Chat valuable and wish to support its ongoing development, maintenance, and the effort it takes to innovate and add new features, please consider making a contribution.\nYour support, no matter the size, makes a significant difference and is deeply appreciated!\nYou can support Sebastian through:\n\nPatreon: patreon.com/icarito\nBuy Me a Coffee: buymeacoffee.com/icarito"
+    "section": "",
+    "text": "As the maintainer and steward of Gtk-LLM-Chat, I see my role as upholding an implied social contract with you, our users. This is centered on a profound commitment to your software freedom, ensuring Gtk-LLM-Chat remains transparent, user-centric, and true to its GPLv3 Libre Software license.\nThis commitment means dedicating significant time and effort to develop, maintain, and evolve Gtk-LLM-Chat – not just as a functional tool, but as one that respects your rights and empowers you. It involves ongoing work to add new features, ensure stability, and respond to the community’s needs, all while adhering to these core principles.\nIf Gtk-LLM-Chat brings value to your work or personal projects, and you wish to support this vision, the continued development, and the effort to keep it a thriving open-source project, please consider becoming a sponsor. Your contribution, no matter the size, directly helps sustain these efforts and allows me to dedicate more resources to the project.\nYou can support my work on Gtk-LLM-Chat through:\n\nGitHub Sponsors: github.com/sponsors/icarito\nPatreon: patreon.com/icarito\nBuy Me a Coffee: buymeacoffee.com/icarito\n\nYour support is not just a donation; it’s an investment in a project that values freedom, community, and user empowerment. Thank you for considering it!"
   },
   {
     "objectID": "index.html",
@@ -46,14 +46,14 @@
     "href": "downloads.html",
     "title": "How to install",
     "section": "",
-    "text": "It’s possible to install gtk-llm-chat in two ways: as a standalone application or as a plugin for the llm command-line utility.\n\n\nThese are standalone application bundles for easy installation. These are recommended for most users, as they provide a simple way to get started without needing to set up the llm command-line utility.\n\n\n\n\n\n\n\nFile: gtk-llm-chat-v3.0.0-AMD64.exe Architecture: AMD64 / x86_64\n  Download .exe\n\n\n\nFile: gtk-llm-chat-x86_64.AppImage Architecture: x86_64\n  Download .AppImage\n\n\n\n\n\nFile: gtk-llm-chat-arm64.dmg Architecture: arm64\n  Download .dmg (arm64)\n\n\n\nFile: gtk-llm-chat-x86_64.dmg Architecture: x86_64\n  Download .dmg (x86_64)\n\n\n\n\n You will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores.\n\n\n\n\nGtk-LLM-Chat can also be installed as a plugin for Simon Willison’s llm command-line utility. This allows you to use it as a graphical frontend for your llm conversations. Use this if you’d like to integrate gtk-llm-chat with the llm ecosystem or if you prefer using command-line tools in combination with a GUI.\n1. Install llm (if you haven’t already):\nIt’s recommended to install llm using pipx to avoid conflicts with other Python packages:\npipx install llm\n2. Install the gtk-llm-chat plugin:\nOnce llm is installed, you can install gtk-llm-chat as a plugin:\nllm install gtk-llm-chat\n\n  You will most likely need to install some dependencies for gtk-llm-chat to work properly in your system.\n\n3. Run gtk-llm-chat:\nAfter installation, you can launch the GTK application using:\nllm gtk-chat\nOr, depending on your system and how plugins are registered with llm, you might also find gtk-llm-chat as a separate application.\n\nFor more detailed information, system requirements, and development setup, please refer to the project’s README on GitHub."
+    "text": "It’s possible to install gtk-llm-chat in two ways: as a standalone application or as a plugin for the llm command-line utility.\n\n\nThese are standalone application bundles for easy installation. These are recommended for most users, as they provide a simple way to get started without needing to set up the llm command-line utility.\n\n\n\n\n\n\n\nFile: gtk-llm-chat-x86_64.AppImage Architecture: x86_64\n  Download .AppImage\n\n\n\nFile: gtk-llm-chat-v3.0.0-AMD64.exe Architecture: AMD64 / x86_64\n  Download .exe\n\n\n\n\n\nFile: gtk-llm-chat-arm64.dmg Architecture: arm64\n  Download .dmg (arm64)\n\n\n\nFile: gtk-llm-chat-x86_64.dmg Architecture: x86_64\n  Download .dmg (x86_64)\n\n\n\n\n\nYou will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores.\n\n\n\n\nGtk-LLM-Chat can also be installed as a plugin for Simon Willison’s llm command-line utility. This allows you to use it as a graphical frontend for your llm conversations. Use this if you’d like to integrate gtk-llm-chat with the llm ecosystem or if you prefer using command-line tools in combination with a GUI.\n1. Install llm (if you haven’t already):\nIt’s recommended to install llm using pipx to avoid conflicts with other Python packages:\npipx install llm\n2. Install the gtk-llm-chat plugin:\nOnce llm is installed, you can install gtk-llm-chat as a plugin:\nllm install gtk-llm-chat\n\n  You will most likely need to install some dependencies for gtk-llm-chat to work properly in your system.\n\n3. Run gtk-llm-chat:\nAfter installation, you can launch the GTK application using:\nllm gtk-chat\nOr, depending on your system and how plugins are registered with llm, you might also find gtk-llm-chat as a separate application.\n\nFor more detailed information, system requirements, and development setup, please refer to the project’s README on GitHub."
   },
   {
     "objectID": "downloads.html#distribution-packages",
     "href": "downloads.html#distribution-packages",
     "title": "How to install",
     "section": "",
-    "text": "These are standalone application bundles for easy installation. These are recommended for most users, as they provide a simple way to get started without needing to set up the llm command-line utility.\n\n\n\n\n\n\n\nFile: gtk-llm-chat-v3.0.0-AMD64.exe Architecture: AMD64 / x86_64\n  Download .exe\n\n\n\nFile: gtk-llm-chat-x86_64.AppImage Architecture: x86_64\n  Download .AppImage\n\n\n\n\n\nFile: gtk-llm-chat-arm64.dmg Architecture: arm64\n  Download .dmg (arm64)\n\n\n\nFile: gtk-llm-chat-x86_64.dmg Architecture: x86_64\n  Download .dmg (x86_64)\n\n\n\n\n You will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores."
+    "text": "These are standalone application bundles for easy installation. These are recommended for most users, as they provide a simple way to get started without needing to set up the llm command-line utility.\n\n\n\n\n\n\n\nFile: gtk-llm-chat-x86_64.AppImage Architecture: x86_64\n  Download .AppImage\n\n\n\nFile: gtk-llm-chat-v3.0.0-AMD64.exe Architecture: AMD64 / x86_64\n  Download .exe\n\n\n\n\n\nFile: gtk-llm-chat-arm64.dmg Architecture: arm64\n  Download .dmg (arm64)\n\n\n\nFile: gtk-llm-chat-x86_64.dmg Architecture: x86_64\n  Download .dmg (x86_64)\n\n\n\n\n\nYou will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores."
   },
   {
     "objectID": "downloads.html#installing-as-a-command-line-plugin-for-llm",
@@ -65,64 +65,64 @@
   {
     "objectID": "features.html",
     "href": "features.html",
-    "title": "Key Features of Gtk-LLM-Chat",
+    "title": "Features of Gtk-LLM-Chat",
     "section": "",
-    "text": "Gtk-LLM-Chat is designed to provide a seamless and powerful experience for interacting with a variety of Large Language Models directly from your desktop. Discover its capabilities below."
+    "text": "Gtk-LLM-Chat is designed to provide a seamless and powerful experience for interacting with a variety of Large Language Models directly from your desktop. Discover its capabilities below.\n\n\nGtk-LLM-Chat boasts a clean, user-friendly graphical interface built with the latest GTK4 and Libadwaita libraries. This ensures a modern look and feel that integrates beautifully with your desktop environment, making your AI conversations a pleasure.\n\n\n\nEasily juggle multiple discussions at once. Each conversation can open in its own independent window, allowing you to organize your thoughts and projects efficiently. You can also rename and delete conversations as needed to keep your workspace tidy.\n\n\n\nPowered by the versatile python-llm library, Gtk-LLM-Chat supports a wide range of Large Language Models from various providers. Switch between models effortlessly and leverage the unique strengths of each.\n\n\n\nExperience dynamic interactions with real-time streaming of AI responses. Messages are rendered with Markdown support, allowing for clear and rich formatting, including code blocks, lists, and more, directly in the chat view.\n\n\n\nA sleek sidebar provides quick access to essential controls. Select your preferred LLM provider and model, adjust parameters, and manage application settings, all from one easily accessible panel. Toggle its visibility with F10.\n\n\n\nTailor each conversation to your specific needs. Adjust key parameters like temperature and define a custom system prompt on a per-conversation basis, giving you fine-grained control over the AI’s behavior and responses.\n\n\n\nStay productive with the integrated system tray applet. Quickly access your recent conversations or start new ones without needing to navigate away from your current task, ensuring Gtk-LLM-Chat is always within easy reach.\n\n\n\nBoost your productivity with a comprehensive set of keyboard shortcuts for common actions:\n\nF10: Toggle sidebar visibility\nF2: Rename the current conversation\nEscape: Minimize the current window\nEnter: Send your message\nShift+Enter: Add a new line in the input field\nCtrl+W: Delete the current conversation\n\n\nWe are continuously working on adding more features and improving Gtk-LLM-Chat. Check our GitHub repository for the latest updates!"
   },
   {
     "objectID": "features.html#modern-intuitive-interface",
     "href": "features.html#modern-intuitive-interface",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "Modern & Intuitive Interface",
-    "text": "Modern & Intuitive Interface\nGtk-LLM-Chat boasts a clean, user-friendly graphical interface built with the latest GTK4 and Libadwaita libraries. This ensures a modern look and feel that integrates beautifully with your desktop environment, making your AI conversations a pleasure."
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "Gtk-LLM-Chat boasts a clean, user-friendly graphical interface built with the latest GTK4 and Libadwaita libraries. This ensures a modern look and feel that integrates beautifully with your desktop environment, making your AI conversations a pleasure."
   },
   {
     "objectID": "features.html#multi-conversation-management",
     "href": "features.html#multi-conversation-management",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "Multi-Conversation Management",
-    "text": "Multi-Conversation Management\nEasily juggle multiple discussions at once. Each conversation can open in its own independent window, allowing you to organize your thoughts and projects efficiently. You can also rename and delete conversations as needed to keep your workspace tidy."
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "Easily juggle multiple discussions at once. Each conversation can open in its own independent window, allowing you to organize your thoughts and projects efficiently. You can also rename and delete conversations as needed to keep your workspace tidy."
   },
   {
     "objectID": "features.html#broad-llm-compatibility",
     "href": "features.html#broad-llm-compatibility",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "Broad LLM Compatibility",
-    "text": "Broad LLM Compatibility\nPowered by the versatile python-llm library, Gtk-LLM-Chat supports a wide range of Large Language Models from various providers. Switch between models effortlessly and leverage the unique strengths of each."
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "Powered by the versatile python-llm library, Gtk-LLM-Chat supports a wide range of Large Language Models from various providers. Switch between models effortlessly and leverage the unique strengths of each."
   },
   {
     "objectID": "features.html#real-time-streaming-rich-formatting",
     "href": "features.html#real-time-streaming-rich-formatting",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "Real-time Streaming & Rich Formatting",
-    "text": "Real-time Streaming & Rich Formatting\nExperience dynamic interactions with real-time streaming of AI responses. Messages are rendered with Markdown support, allowing for clear and rich formatting, including code blocks, lists, and more, directly in the chat view."
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "Experience dynamic interactions with real-time streaming of AI responses. Messages are rendered with Markdown support, allowing for clear and rich formatting, including code blocks, lists, and more, directly in the chat view."
   },
   {
     "objectID": "features.html#convenient-sidebar-for-controls",
     "href": "features.html#convenient-sidebar-for-controls",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "Convenient Sidebar for Controls",
-    "text": "Convenient Sidebar for Controls\nA sleek sidebar provides quick access to essential controls. Select your preferred LLM provider and model, adjust parameters, and manage application settings, all from one easily accessible panel. Toggle its visibility with F10."
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "A sleek sidebar provides quick access to essential controls. Select your preferred LLM provider and model, adjust parameters, and manage application settings, all from one easily accessible panel. Toggle its visibility with F10."
   },
   {
     "objectID": "features.html#conversation-customization",
     "href": "features.html#conversation-customization",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "Conversation Customization",
-    "text": "Conversation Customization\nTailor each conversation to your specific needs. Adjust key parameters like temperature and define a custom system prompt on a per-conversation basis, giving you fine-grained control over the AI’s behavior and responses."
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "Tailor each conversation to your specific needs. Adjust key parameters like temperature and define a custom system prompt on a per-conversation basis, giving you fine-grained control over the AI’s behavior and responses."
   },
   {
     "objectID": "features.html#system-tray-integration",
     "href": "features.html#system-tray-integration",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "System Tray Integration",
-    "text": "System Tray Integration\nStay productive with the integrated system tray applet. Quickly access your recent conversations or start new ones without needing to navigate away from your current task, ensuring Gtk-LLM-Chat is always within easy reach."
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "Stay productive with the integrated system tray applet. Quickly access your recent conversations or start new ones without needing to navigate away from your current task, ensuring Gtk-LLM-Chat is always within easy reach."
   },
   {
     "objectID": "features.html#keyboard-shortcuts-for-efficiency",
     "href": "features.html#keyboard-shortcuts-for-efficiency",
-    "title": "Key Features of Gtk-LLM-Chat",
-    "section": "Keyboard Shortcuts for Efficiency",
-    "text": "Keyboard Shortcuts for Efficiency\nBoost your productivity with a comprehensive set of keyboard shortcuts for common actions:\n\nF10: Toggle sidebar visibility\nF2: Rename the current conversation\nEscape: Minimize the current window\nEnter: Send your message\nShift+Enter: Add a new line in the input field\nCtrl+W: Delete the current conversation\n\n\nWe are continuously working on adding more features and improving Gtk-LLM-Chat. Check our GitHub repository for the latest updates!"
+    "title": "Features of Gtk-LLM-Chat",
+    "section": "",
+    "text": "Boost your productivity with a comprehensive set of keyboard shortcuts for common actions:\n\nF10: Toggle sidebar visibility\nF2: Rename the current conversation\nEscape: Minimize the current window\nEnter: Send your message\nShift+Enter: Add a new line in the input field\nCtrl+W: Delete the current conversation\n\n\nWe are continuously working on adding more features and improving Gtk-LLM-Chat. Check our GitHub repository for the latest updates!"
   }
 ]
