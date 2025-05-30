@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://icarito.github.io/gtk-llm-chat-site/development.html</loc>
-    <lastmod>2025-05-30T15:44:09.936Z</lastmod>
+    <loc>https://gtk-llm-chat.fuentelibre.org/development.html</loc>
+    <lastmod>2025-05-30T15:59:57.179Z</lastmod>
   </url>
   <url>
-    <loc>https://icarito.github.io/gtk-llm-chat-site/index.html</loc>
+    <loc>https://gtk-llm-chat.fuentelibre.org/index.html</loc>
     <lastmod>2025-05-30T02:19:43.403Z</lastmod>
   </url>
   <url>
-    <loc>https://icarito.github.io/gtk-llm-chat-site/downloads.html</loc>
+    <loc>https://gtk-llm-chat.fuentelibre.org/downloads.html</loc>
     <lastmod>2025-05-30T15:26:57.076Z</lastmod>
   </url>
   <url>
-    <loc>https://icarito.github.io/gtk-llm-chat-site/features.html</loc>
+    <loc>https://gtk-llm-chat.fuentelibre.org/features.html</loc>
     <lastmod>2025-05-30T15:28:28.425Z</lastmod>
   </url>
 </urlset>
