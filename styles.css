@@ -28,6 +28,7 @@ body {
   background-color: var(--page-bg) !important; /* Forzar sobre darkly */
   color: var(--text-color) !important; /* Forzar sobre darkly */
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,9 +72,9 @@ a:hover {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.ad-card:hover {
+/*.ad-card:hover {
   box-shadow: var(--shadow-lg);
-}
+}*/
 
 .ad-card h1, .ad-card .h1,
 .ad-card h2, .ad-card .h2,
@@ -95,12 +96,6 @@ a:hover {
   cursor: pointer;
   border: 1px solid transparent;
   text-decoration: none !important; /* Para que no se subrayen si son <a> */
-}
-
-body {
-  background-image: url('./images/win11.jpg') !important;
-  backgroudn-repeat: no-repeat !important;
-  background-size: cover !important;
 }
 
 #quarto-header {
@@ -340,4 +335,24 @@ img.navbar-logo {
 }
 .winbox .wb-body .dialog .dialog-header .btn-close:hover {
   opacity: 1;
+}
+
+.centered {
+  text-align: center;
+}
+
+code {
+  background-color: unset !important;
+}
+
+@media (max-width: 500px) {
+  #quarto-header > nav {
+    padding: 0rem !important;
+  }
+  .navbar-container {
+    padding-left: 0rem !important;
+  }
+  img.navbar-logo {
+    max-width: 100% !important;
+  }
 }

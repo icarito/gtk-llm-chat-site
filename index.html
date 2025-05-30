@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GTK LLM Chat</title>
+<title>Gtk LLM Chat</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0a9048d95e02c7ff9c82715fd5ddea4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6d30334cace3de719510828f7b1d08ca.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7222fc94a5b5c5b802ba3e1b695ba4cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/react-17.0.2/react.min.js"></script>
 <script src="site_libs/quarto-contrib/react-dom-17.0.2/react-dom.min.js"></script>
 <script src="site_libs/quarto-contrib/babel-6.26.0/babel.min.js"></script>
@@ -71,15 +71,40 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>@import 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css';
+
+.swiper {
+    overflow: visible !important;
+    max-width: 100vw;
+}
+
+.swiper-slide {
+    max-width: 100vw;
+}   
+
+.swiper-slide img {
+    max-width: 100vw;
+}
+
+.desktop {
+    margin-top: -50px;
+    background-image: url('./images/linux.png');
+    background-size: cover;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    transition: background-image 0.4s ease;
+    overflow-x: hidden;
+}</style>
 
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="GTK LLM Chat">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Gtk LLM Chat">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed dark-theme">
+<body class="nav-fixed dark-theme fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -90,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
     <img src="./images/animated_icon.gif" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">GTK LLM Chat</span>
+    <span class="navbar-title">Gtk LLM Chat</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -101,11 +126,19 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">Screenshots</span></a>
+    <a class="nav-link" href="./features.html"> 
+<span class="menu-text">Features</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./downloads.html"> 
+<span class="menu-text">Downloads</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./development.html"> 
+<span class="menu-text">Development</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -118,45 +151,43 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#documentación" id="toc-documentación" class="nav-link active" data-scroll-target="#documentación">Documentación</a></li>
-  </ul>
-</nav>
-    <div class="quarto-margin-footer"><div class="margin-footer-item">
-<p></p><div id="react-Sidebar-i6LwM7dx"></div><p></p>
-</div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<div class="ad-card">
-<p>Gtk LLM Chat es una aplicación nativa que te permite interactuar con modelos de lenguaje de última generación (LLMs) a través de una interfaz gráfica intuitiva y moderna basada en GTK.</p>
-<section id="características-principales" class="level3">
-<h3 class="anchored" data-anchor-id="características-principales">Características principales</h3>
-<ul>
-<li><strong>Interfaz nativa GTK</strong>: Perfecta integración con escritorios GNOME y otros entornos basados en GTK</li>
-<li><strong>Soporte para múltiples modelos</strong>: Compatible con diversos modelos de lenguaje de código abierto</li>
-<li><strong>Experiencia fluida</strong>: Diseñada para ofrecer respuestas rápidas y una experiencia de usuario óptima</li>
-<li><strong>Personalizable</strong>: Adapta la interfaz y el comportamiento a tus necesidades</li>
-</ul>
+<p></p><div id="react-Showcase-qNxJHJ76"></div><p></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<section id="dynamic-ai-dialogues" class="level3 ad-card.accented quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="dynamic-ai-dialogues"><i class="bi bi-stars"></i> <span class="text-primary">Dynamic AI Dialogues!</span></h3>
+<p>Engage diverse LLMs through a sleek, responsive chat interface. Pure power at your fingertips for truly modern conversations.</p>
+</section>
+<section id="instant-ai-access" class="level3 ad-card.accented quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="instant-ai-access"><i class="bi bi-lightning-charge-fill"></i> <span class="text-primary">Instant AI Access!</span></h3>
+<p>Your conversations &amp; AI assistant, always ready. Deep desktop integration via a slick tray applet for ultimate workflow convenience.</p>
 </section>
 </div>
-<section id="documentación" class="level3 ad-card">
-<h3 class="anchored" data-anchor-id="documentación">Documentación</h3>
-<p>Explora la documentación para aprender más sobre cómo configurar y utilizar Gtk LLM Chat:</p>
-<ul>
-<li><a href="about.html">Guía de inicio rápido</a></li>
-<li><a href="about.html">Configuración de modelos</a></li>
-<li><a href="about.html">Personalización</a></li>
-<li><a href="about.html">Desarrolladores</a></li>
-</ul>
+<div class="quarto-layout-row">
+<section id="total-freedom-gplv3" class="level3 ad-card.accented quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="total-freedom-gplv3"><i class="bi bi-shield-check"></i> <span class="text-primary">Total Freedom: GPLv3!</span></h3>
+<p>Unleash your potential with 100% Libre Software. Gtk-LLM-Chat empowers you to use, modify, share, and build without limits.</p>
 </section>
+<section id="your-ai-your-rules" class="level3 ad-card.accented quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<h3 class="anchored" data-anchor-id="your-ai-your-rules"><i class="bi bi-person-lock"></i> <span class="text-primary">Your AI, Your Rules!</span></h3>
+<p>Command your digital world. Gtk-LLM-Chat ensures full conversation ownership and uncompromising privacy. AI on your terms.</p>
+</section>
+</div>
+</div>
+<hr>
+<div class="centered">
+<p><a href="./features.html" class="ad-button ad-button-secondary ad-button-lg" role="button"> <i class="bi bi-file-text-fill"></i>&nbsp; Read more </a> <a href="./downloads.html" class="ad-button ad-button-primary ad-button-lg" role="button"> <i class="bi bi-download"></i>&nbsp; Go to Downloads </a></p>
+</div>
 
 
 
@@ -251,7 +282,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/icarito\.github\.io\/gtk-llm-chat-site\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -580,84 +611,106 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 <script type="module" src="main.js" defer=""></script>
-<script type="text/babel" data-type="module" data-presets="env-plus,react,typescript">import wb from 'https://esm.run/react-winbox';
+<script type="text/babel" data-type="module" data-presets="env-plus,react,typescript">import { Swiper } from 'https://cdn.jsdelivr.net/npm/swiper@10/+esm';
+import EffectCoverflow from 'https://cdn.jsdelivr.net/npm/swiper@10/modules/effect-coverflow.min.mjs';
+// import Autoplay from 'https://cdn.jsdelivr.net/npm/swiper@10/modules/autoplay.min.mjs';
 
-let WinBox = wb.default;
 
-function GtkWindow({ title, children }) { // Añadir onHide a las props
+function Carousel3({ items }) {
+  const swiperRef = React.useRef(null);
+  const [backdrop, setBackdrop] = React.useState(items[1].desktop);
+
+  React.useEffect(() => {
+    function initSwiper() {
+      if (swiperRef.current) {
+        const swiper = new Swiper(swiperRef.current, {
+          effect: 'coverflow',
+          modules: [EffectCoverflow],
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          initialSlide: 1,
+          speed: 1800,
+          coverflowEffect: {
+            rotate: 30,
+            scale: 0.8,
+            stretch: 0,
+            depth: 500,
+            slideShadows: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          /* autoplay: {
+            delay: 4000,
+            disableOnInteraction: true,
+            pauseOnMouseEnter: true
+          },*/
+        });
+        swiper.on('slideChange', () => {
+          console.log('Slide changed to index:', items[swiper.activeIndex].title);
+          setBackdrop(items[swiper.activeIndex].desktop);
+        });
+      }
+    }
+    initSwiper();
+  }, [items]);
+
   return (
-    <WinBox
-      width={300}
-      height={450}
-      x="center"
-      y="center"
-      title={title}
-      noMin noMax noFull
-      className="dialog dialog-header"
-    >
-      <div className="dialog-body">
-        {children} {/* Renderizar el contenido hijo aquí */}
+    <div className="desktop"
+      style={{ backgroundImage: `url(${backdrop})` }}>
+      <div
+        className="swiper"
+        ref={swiperRef}
+        style={{ width: '100%', maxWidth: '980px', height: '100%' }}
+      >
+        <div className="swiper-wrapper">
+          {items.map((item, idx) => (
+            <div className="swiper-slide" key={idx} style={{
+              width: '550px',
+              textAlign: 'center',
+              background: '#0000',
+              borderRadius: '8px',
+              overflow: 'hidden'
+            }}>
+              <img
+                src={item.image}
+                alt={item.title}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="swiper-pagination"></div>
       </div>
-    </WinBox>
+    </div>
   );
 }
 
 
 
-const icon = "images/org.fuentelibre.gtk_llm_Chat.svg";
+const mac = { image: './images/pretty.png', title: 'Macos', desktop: './images/macos.jpg' }
+const linux = { image: './images/hello.png', title: 'Linux', desktop: './images/linux.jpg' }
+const win = { image: './images/exciting.png', title: 'Windows', desktop: './images/win11.jpg' }
 
-function AboutDialog() {
-    return (
-        <GtkWindow>
-            <center>
-                <br></br>
-                <img src={icon} alt="Gtk LLM Chat Robot Icon" width="100" height="100" />
-                <div class="header">Gtk LLM Chat</div>
-                <div class="text">Sebastian Silva</div>
-                <div>
-                    <button class="btn rounded">v3.0.0</button>
-                </div>
-            </center>
-            <div class="linked vertical">
-                <button class="btn">Details</button>
-            </div>
-            <div class="linked vertical">
-                <button class="btn">Credits</button>
-                <button class="btn">Legal</button>
-            </div>
-        </GtkWindow>
-    );
+let items;
+
+if (navigator.userAgent.includes('Mac')) {
+  items = [linux, mac, win];
+}
+else if (navigator.userAgent.includes('Windows')) {
+  items = [mac, win, linux];
+} else {
+  items = [mac, linux, win];
 }
 
+function Showcase() {
 
-
-function Sidebar() {
-
-    const [windows, setWindows] = React.useState([]);
-
-    function showAboutDialog() {
-        const aboutDialog = new AboutDialog();
-        setWindows([...windows, aboutDialog]);
-    }
-
-    return (<div class="dialog ad-card">
-        <div class="linked vertical">
-            <button class="btn">Details</button>
-        </div>
-        <div class="linked vertical">
-            <button class="btn">Credits</button>
-            <button class="btn" onClick={showAboutDialog}>About</button>
-        </div>
-        {windows.map((window, index) => (
-            <div key={index}>
-                {window}
-            </div>
-        ))}
-    </div>
-    );
+  return (
+    <Carousel3 items={items} />
+  );
 }
 
-ReactDOM.render( <React.StrictMode>    <Sidebar/>  </React.StrictMode>,  document.getElementById("react-Sidebar-i6LwM7dx") );</script>
+ReactDOM.render( <React.StrictMode>    <Showcase/>  </React.StrictMode>,  document.getElementById("react-Showcase-qNxJHJ76") );</script>
 
 
 
