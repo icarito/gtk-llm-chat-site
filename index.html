@@ -163,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p></p><div id="react-Showcase-AzB2ShMz"></div><p></p>
+<p></p><div id="react-Showcase-TMyPHrDO"></div><p></p>
 <div>
 
 </div>
@@ -618,7 +618,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <script type="module" src="main.js" defer=""></script>
 <script type="text/babel" data-type="module" data-presets="env-plus,react,typescript">import { Swiper } from 'https://cdn.jsdelivr.net/npm/swiper@10/+esm';
 import EffectCoverflow from 'https://cdn.jsdelivr.net/npm/swiper@10/modules/effect-coverflow.min.mjs';
-// import Autoplay from 'https://cdn.jsdelivr.net/npm/swiper@10/modules/autoplay.min.mjs';
+import Autoplay from 'https://cdn.jsdelivr.net/npm/swiper@10/modules/autoplay.min.mjs';
 
 
 function Carousel3({ items }) {
@@ -630,11 +630,11 @@ function Carousel3({ items }) {
       if (swiperRef.current) {
         const swiper = new Swiper(swiperRef.current, {
           effect: 'coverflow',
-          modules: [EffectCoverflow],
+          modules: [EffectCoverflow, Autoplay],
           centeredSlides: true,
           slidesPerView: 'auto',
           initialSlide: 1,
-          speed: 1800,
+          speed: 800,
           coverflowEffect: {
             rotate: 30,
             scale: 0.8,
@@ -646,11 +646,11 @@ function Carousel3({ items }) {
             el: '.swiper-pagination',
             clickable: true,
           },
-          /* autoplay: {
+          autoplay: {
             delay: 4000,
             disableOnInteraction: true,
             pauseOnMouseEnter: true
-          },*/
+          },
         });
         swiper.on('slideChange', () => {
           console.log('Slide changed to index:', items[swiper.activeIndex].title);
@@ -715,7 +715,7 @@ function Showcase() {
   );
 }
 
-ReactDOM.render( <React.StrictMode>    <Showcase/>  </React.StrictMode>,  document.getElementById("react-Showcase-AzB2ShMz") );</script>
+ReactDOM.render( <React.StrictMode>    <Showcase/>  </React.StrictMode>,  document.getElementById("react-Showcase-TMyPHrDO") );</script>
 
 
 
