@@ -7,11 +7,11 @@ website:
   favicon: images/org.fuentelibre.gtk_llm_Chat-bw.png
   twitter-card: true
   announcement: 
-    icon: info-circle
+    icon: party-popper
     dismissable: true
-    type: info
+    type: primary # Or 'success' if you prefer
     content: |
-      **Beta**: Gtk-LLM-Chat is Libre Software. While generally stable for daily use, it is provided "as-is" with no warranties.
+      **New Release!** Gtk-LLM-Chat v4.0.4 is out! Check the [downloads page](/downloads.qmd) for the latest version. 🎉
     position: below-navbar
   navbar:
     logo: images/animated_icon.gif
@@ -37,5 +37,3 @@ format:
     include-after-body: 
       - text: <script type=module src="main.js" defer></script>
     body-classes: "dark-theme"
-
-

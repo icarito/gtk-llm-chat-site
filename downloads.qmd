@@ -10,6 +10,10 @@ It's possible to install `gtk-llm-chat` in two ways: as a standalone application
 
 ## Distribution Packages
 
+::: { .alert .alert-info }
+<i class="bi bi-info-circle-fill"></i>&nbsp; **Beta**: Gtk-LLM-Chat is Libre Software. While generally stable for daily use, it is provided "as-is" with no warranties.
+:::
+
 These are standalone application bundles for easy installation. These are recommended for most users, as they provide a simple way to get started without needing to set up the `llm` command-line utility.
 
 ::: {layout-ncol=2}
@@ -20,16 +24,25 @@ These are standalone application bundles for easy installation. These are recomm
 **File:** `gtk-llm-chat-x86_64.AppImage`
 **Architecture:** x86_64
 
-[<i class="bi bi-download"></i>&nbsp; Download .AppImage](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.AppImage){.wai-button .wai-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .AppImage](https://github.com/icarito/gtk-llm-chat/releases/download/v4.0.4/gtk-llm-chat-x86_64.AppImage){.wai-button .wai-button-primary role="button"}
+:::
+
+::: { .wai-card }
+### <i class="bi bi-box"></i> Linux (Flatpak) <span class="badge bg-success">New!</span>
+
+**File:** `gtk-llm-chat.flatpak`
+**Source:** Direct Download
+
+[<i class="bi bi-download"></i>&nbsp; Download .flatpak](https://github.com/icarito/gtk-llm-chat/releases/download/v4.0.4/gtk-llm-chat.flatpak){.wai-button .wai-button-primary role="button"}
 :::
 
 ::: { .wai-card }
 ### <i class="bi bi-windows"></i> Windows
 
-**File:** `gtk-llm-chat-v3.0.0-AMD64.exe`
+**File:** `gtk-llm-chat-v4.0.4-AMD64.exe`
 **Architecture:** AMD64 / x86_64
 
-[<i class="bi bi-download"></i>&nbsp; Download .exe](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-v3.0.0-AMD64.exe){.wai-button .wai-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .exe](https://github.com/icarito/gtk-llm-chat/releases/download/v4.0.4/gtk-llm-chat-v4.0.4-AMD64.exe){.wai-button .wai-button-primary role="button"}
 :::
 
 ::: { .wai-card }
@@ -38,7 +51,7 @@ These are standalone application bundles for easy installation. These are recomm
 **File:** `gtk-llm-chat-arm64.dmg`
 **Architecture:** arm64
 
-[<i class="bi bi-download"></i>&nbsp; Download .dmg (arm64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-arm64.dmg){.wai-button .wai-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .dmg (arm64)](https://github.com/icarito/gtk-llm-chat/releases/download/v4.0.4/gtk-llm-chat-arm64.dmg){.wai-button .wai-button-primary role="button"}
 :::
 
 ::: { .wai-card }
@@ -47,12 +60,12 @@ These are standalone application bundles for easy installation. These are recomm
 **File:** `gtk-llm-chat-x86_64.dmg`
 **Architecture:** x86_64
 
-[<i class="bi bi-download"></i>&nbsp; Download .dmg (x86_64)](https://github.com/icarito/gtk-llm-chat/releases/download/v3.0.0/gtk-llm-chat-x86_64.dmg){.wai-button .wai-button-primary role="button"}
+[<i class="bi bi-download"></i>&nbsp; Download .dmg (x86_64)](https://github.com/icarito/gtk-llm-chat/releases/download/v4.0.4/gtk-llm-chat-x86_64.dmg){.wai-button .wai-button-primary role="button"}
 :::
 
 :::
 
-::: { .alert .alert-danger }
+::: { .alert .alert-warning }
 ### <i class="bi bi-info-circle-fill"></i>&nbsp; Attention MacOS and Windows users
 
 You will need to allow the application to run in your system, as it is not signed by a recognized authority. This is normal for applications distributed outside of official app stores.
@@ -76,7 +89,7 @@ Once `llm` is installed, you can install `gtk-llm-chat` as a plugin:
 llm install gtk-llm-chat
 ```
 
-::: { .alert .alert-warning }
+::: { .alert .alert-danger }
 <i class="bi bi-exclamation-triangle-fill"></i>&nbsp; You will most likely need to install some [*dependencies*](https://github.com/icarito/gtk-llm-chat/?tab=readme-ov-file#system-requirements) for `gtk-llm-chat` to work properly in your system.
 :::
 
